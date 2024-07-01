@@ -1,0 +1,210 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			},
+			"app-plus": {
+				"titleView":false
+		    }
+		},
+		{
+			"path": "pages/bibi/bibi",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			},
+			"app-plus": {
+				"titleView":false
+		    }
+		},
+		{
+			"path": "pages/maimai/maimai",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			},
+			"app-plus": {
+				"titleView":false
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			},
+			"app-plus": {
+				"titleView":false
+			}
+		},
+		{
+			"path": "pages/wakuang/wakuang",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
+			},
+			"app-plus": {
+				"titleView":false
+			}
+		},
+		{
+			"path": "pages/home/help",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path" : "pages/maimai/jiaoyi",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+			"app-plus": {
+				"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/chongzhi",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/tixian",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/kefu",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/shimin",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/gonggao",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/login",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/shandui",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/czjilu",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		},
+		{
+			"path" : "pages/home/txjilu",
+			"style" :
+			{
+				"navigationBarTitleText" : "",
+				"navigationStyle":"custom"
+			},
+				"app-plus": {
+					"titleView":false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor":"#31313f",
+		"selectedColor": "#bf5fc1",
+		"color": "#9FA6B5",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "/static/navbar/base_home_0.png",
+				"selectedIconPath": "/static/navbar/base_home_1.png",
+				"text": "%nav.home%"
+			},{
+				"pagePath": "pages/bibi/bibi",
+				"iconPath": "static/navbar/base_link_0.png",
+				"selectedIconPath": "static/navbar/base_link_1.png",
+				"text": "%nav.bibi%"
+			},{
+				"pagePath": "pages/maimai/maimai",
+				"iconPath": "static/navbar/base_caidan_0.png",
+				"selectedIconPath": "static/navbar/base_caidan_1.png",
+				"text": "%nav.maimai%"
+			},{
+				"pagePath": "pages/wakuang/wakuang",
+				"iconPath": "static/navbar/base_qukuai_0.png",
+				"selectedIconPath": "static/navbar/base_qukuai_1.png",
+				"text": "%nav.wakuang%"
+			},{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/navbar/base_assets_0.png",
+				"selectedIconPath": "static/navbar/base_assets_1.png",
+				"text": "%nav.zichan%"
+			}
+		]
+	}
+}
